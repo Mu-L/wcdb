@@ -77,6 +77,7 @@ Pod::Spec.new do |wcdb|
     "VALID_ARCHS[sdk=watchos*]" => "arm64_32 arm64 x86_64",
     "OTHER_CFLAGS" => "-fvisibility-inlines-hidden",
     "OTHER_CPLUSPLUSFLAGS" => "-fvisibility-inlines-hidden",
+    "_EXPERIMENTAL_SWIFT_EXPLICIT_MODULES" => 'YES',
     "OTHER_SWIFT_FLAGS" => "-no-verify-emitted-module-interface",
   }
   wcdb.swift_versions = '5'
